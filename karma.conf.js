@@ -1,5 +1,7 @@
 // Karma configuration
 // Generated on Jan 18 2017
+const chromium = require('chromium');
+process.env.CHROMIUM_BIN = chromium.path;
 
 module.exports = function(config) {
   config.set({
